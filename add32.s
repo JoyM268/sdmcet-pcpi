@@ -1,4 +1,5 @@
-AREA add32, CODE, READONLY
+;Program to add two 32-bit numbers where num1 and num2 are statically declared
+	AREA add32, CODE, READONLY
 	LDR R0, =NUM1	;Load memory address of NUM1 into R0
 	LDR R1, = NUM2	;Load memory address of NUM2 into R1
 	LDR R9, =RESULT	;Load memory address of RESULT into R9
