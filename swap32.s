@@ -8,4 +8,6 @@
 	EOR R0, R0, R1	;XOR R0 with R1 and store result in R0
 	EOR R1, R0, R1	;XOR R0 with R1 and store result in R1
 	EOR R0, R0, R1	;XOR R0 with R1 and store result in R0
+	NOP
+	NOP
 	END
