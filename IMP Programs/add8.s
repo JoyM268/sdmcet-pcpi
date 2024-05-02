@@ -1,0 +1,16 @@
+;Program to add two 8-bit numbers
+	AREA add8, CODE, READONLY
+	LDR R0, =NUM1
+	LDR R1, =NUM2
+	LDR R9, =RESULT
+	LDRB R2, [R0]
+	LDRB R3, [R1]
+	ADD R4, R2, R3
+	STRB R4, [R9]
+	NOP
+	NOP
+	AREA data1, DATA, READWRITE
+RESULT DCB 0x0
+NUM1 DCB 0x0
+NUM2 DCB 0x0
+	END
