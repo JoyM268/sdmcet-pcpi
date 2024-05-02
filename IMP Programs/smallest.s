@@ -4,7 +4,7 @@
 	LDR R9, =RESULT
 	MOV R1, #04
 	LDR R2, [R0]
-nextele	LDR R3, [R0, #04]!
+nextele LDR R3, [R0, #04]!
 	CMP R2, R3
 	BLT lesser
 	MOV R2, R3
