@@ -1,3 +1,4 @@
+;Program to find factorial of given number
     AREA factorial, CODE, READONLY
     LDR R0, =NUM1
     LDR R9, =RESULT
