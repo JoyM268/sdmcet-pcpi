@@ -11,10 +11,10 @@
 	MOV R2, #01	;Initialize R2(count) with 01
 	
 nextval MUL R3, R1, R2	;Multiply the values in R1 and R2 and store in R3
-		STRH R3, [R9], #02	;Store the halfword value in R3 to the memory location pointed by R9 and incr the address in R9 by 2 bytes
-		ADDS R2, R2, #01	;Incr count by 1
-		CMP R2, #10	;check if R2 contains 10
-		BLE nextval	;If the value in R2 is less than or equal to 10, branch to nextval
+	STRH R3, [R9], #02	;Store the halfword value in R3 to the memory location pointed by R9 and incr the address in R9 by 2 bytes
+	ADDS R2, R2, #01	;Incr count by 1
+	CMP R2, #10	;check if R2 contains 10
+	BLE nextval	;If the value in R2 is less than or equal to 10, branch to nextval
 STOP
 	NOP
 	NOP
