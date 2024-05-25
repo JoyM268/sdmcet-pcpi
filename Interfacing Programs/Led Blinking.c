@@ -1,3 +1,4 @@
+//LED blinking program
 #include <LPC21xx.h>
 unsigned int delay;
 int main()
