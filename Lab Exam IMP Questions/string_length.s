@@ -1,4 +1,4 @@
-;Program to find length of a given string
+;Write a assembly language program to find the length of string
 	AREA string_length, CODE, READONLY
 	MOV R0, #0
 	LDR R1, =STR
